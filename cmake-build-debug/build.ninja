@@ -61,6 +61,30 @@ build CMakeFiles/untitled.dir/chapter01/vidu01.c.obj: C_COMPILER__untitled_unsca
   OBJECT_DIR = CMakeFiles\untitled.dir
   OBJECT_FILE_DIR = CMakeFiles\untitled.dir\chapter01
 
+build CMakeFiles/untitled.dir/chapter02/convert_degree.c.obj: C_COMPILER__untitled_unscanned_Debug C$:/Users/ASUS/CLionProjects/untitled/chapter02/convert$ degree.c || cmake_object_order_depends_target_untitled
+  DEP_FILE = CMakeFiles\untitled.dir\chapter02\convert_degree.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\untitled.dir
+  OBJECT_FILE_DIR = CMakeFiles\untitled.dir\chapter02
+
+build CMakeFiles/untitled.dir/chapter03/sum.c.obj: C_COMPILER__untitled_unscanned_Debug C$:/Users/ASUS/CLionProjects/untitled/chapter03/sum.c || cmake_object_order_depends_target_untitled
+  DEP_FILE = CMakeFiles\untitled.dir\chapter03\sum.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\untitled.dir
+  OBJECT_FILE_DIR = CMakeFiles\untitled.dir\chapter03
+
+build CMakeFiles/untitled.dir/chapter04/binh_phuong.c.obj: C_COMPILER__untitled_unscanned_Debug C$:/Users/ASUS/CLionProjects/untitled/chapter04/binh$ phuong.c || cmake_object_order_depends_target_untitled
+  DEP_FILE = CMakeFiles\untitled.dir\chapter04\binh_phuong.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\untitled.dir
+  OBJECT_FILE_DIR = CMakeFiles\untitled.dir\chapter04
+
+build CMakeFiles/untitled.dir/circle/area_and_perimeter.c.obj: C_COMPILER__untitled_unscanned_Debug C$:/Users/ASUS/CLionProjects/untitled/circle/area$ and$ perimeter.c || cmake_object_order_depends_target_untitled
+  DEP_FILE = CMakeFiles\untitled.dir\circle\area_and_perimeter.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\untitled.dir
+  OBJECT_FILE_DIR = CMakeFiles\untitled.dir\circle
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target untitled
@@ -69,7 +93,7 @@ build CMakeFiles/untitled.dir/chapter01/vidu01.c.obj: C_COMPILER__untitled_unsca
 #############################################
 # Link the executable untitled.exe
 
-build untitled.exe: C_EXECUTABLE_LINKER__untitled_Debug CMakeFiles/untitled.dir/main.c.obj CMakeFiles/untitled.dir/chapter01/vidu01.c.obj
+build untitled.exe: C_EXECUTABLE_LINKER__untitled_Debug CMakeFiles/untitled.dir/main.c.obj CMakeFiles/untitled.dir/chapter01/vidu01.c.obj CMakeFiles/untitled.dir/chapter02/convert_degree.c.obj CMakeFiles/untitled.dir/chapter03/sum.c.obj CMakeFiles/untitled.dir/chapter04/binh_phuong.c.obj CMakeFiles/untitled.dir/circle/area_and_perimeter.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\untitled.dir
