@@ -1,0 +1,14 @@
+# ninja log v5
+57	130	7343384874995022	untitled.exe	92edf85113757be0
+6	231	7343336483670141	CMakeFiles/untitled.dir/chapter01/vidu01.c.obj	ffed7c7c8d75e903
+2	155	7343352500012635	CMakeFiles/untitled.dir/chapter03/sum&avg.c.obj	24ce0d1844907068
+2	56	7343356051101188	CMakeFiles/untitled.dir/chapter02/convert_degree.c.obj	a1ef3a4bd928af7
+0	233	7343336483670141	CMakeFiles/untitled.dir/main.c.obj	5ad9bd15a53694cd
+0	158	7343387445498826	build.ninja	465d8ca9abe165ab
+2	55	7343379750603249	CMakeFiles/untitled.dir/chapter03/sum.c.obj	bc867d212caede98
+1	56	7343384874286930	CMakeFiles/untitled.dir/chapter04/binh_phuong.c.obj	4dce31ec501c89bd
+5	54	7343389301286958	CMakeFiles/untitled.dir/circle/area_and_perimeter.c.obj	4720af543c1c8dc1
+2	54	7343389301296933	CMakeFiles/untitled.dir/chapter04/binh_phuong.c.obj	4dce31ec501c89bd
+54	130	7343389302024990	untitled.exe	84678ca6f37bb8c6
+1	54	7343392269684866	CMakeFiles/untitled.dir/circle/area_and_perimeter.c.obj	4720af543c1c8dc1
+54	127	7343392270382987	untitled.exe	84678ca6f37bb8c6
