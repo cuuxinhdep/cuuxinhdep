@@ -79,11 +79,47 @@ build CMakeFiles/untitled.dir/chapter04/binh_phuong.c.obj: C_COMPILER__untitled_
   OBJECT_DIR = CMakeFiles\untitled.dir
   OBJECT_FILE_DIR = CMakeFiles\untitled.dir\chapter04
 
-build CMakeFiles/untitled.dir/circle/area_and_perimeter.c.obj: C_COMPILER__untitled_unscanned_Debug C$:/Users/ASUS/CLionProjects/untitled/circle/area$ and$ perimeter.c || cmake_object_order_depends_target_untitled
-  DEP_FILE = CMakeFiles\untitled.dir\circle\area_and_perimeter.c.obj.d
+build CMakeFiles/untitled.dir/chapter06_toan_tu/area_and_perimeter.c.obj: C_COMPILER__untitled_unscanned_Debug C$:/Users/ASUS/CLionProjects/untitled/chapter06_toan$ tu/area$ and$ perimeter.c || cmake_object_order_depends_target_untitled
+  DEP_FILE = CMakeFiles\untitled.dir\chapter06_toan_tu\area_and_perimeter.c.obj.d
   FLAGS = -g -std=gnu11 -fdiagnostics-color=always
   OBJECT_DIR = CMakeFiles\untitled.dir
-  OBJECT_FILE_DIR = CMakeFiles\untitled.dir\circle
+  OBJECT_FILE_DIR = CMakeFiles\untitled.dir\chapter06_toan_tu
+
+build CMakeFiles/untitled.dir/chapter05_circle/salary.c.obj: C_COMPILER__untitled_unscanned_Debug C$:/Users/ASUS/CLionProjects/untitled/chapter05_circle/salary.c || cmake_object_order_depends_target_untitled
+  DEP_FILE = CMakeFiles\untitled.dir\chapter05_circle\salary.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\untitled.dir
+  OBJECT_FILE_DIR = CMakeFiles\untitled.dir\chapter05_circle
+
+build CMakeFiles/untitled.dir/chapter06_toan_tu/cong3so.c.obj: C_COMPILER__untitled_unscanned_Debug C$:/Users/ASUS/CLionProjects/untitled/chapter06_toan$ tu/cong3so.c || cmake_object_order_depends_target_untitled
+  DEP_FILE = CMakeFiles\untitled.dir\chapter06_toan_tu\cong3so.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\untitled.dir
+  OBJECT_FILE_DIR = CMakeFiles\untitled.dir\chapter06_toan_tu
+
+build CMakeFiles/untitled.dir/chapter06_toan_tu/thetichhinhtru.c.obj: C_COMPILER__untitled_unscanned_Debug C$:/Users/ASUS/CLionProjects/untitled/chapter06_toan$ tu/thetichhinhtru.c || cmake_object_order_depends_target_untitled
+  DEP_FILE = CMakeFiles\untitled.dir\chapter06_toan_tu\thetichhinhtru.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\untitled.dir
+  OBJECT_FILE_DIR = CMakeFiles\untitled.dir\chapter06_toan_tu
+
+build CMakeFiles/untitled.dir/chapter06_toan_tu/tinhbieuthuc.c.obj: C_COMPILER__untitled_unscanned_Debug C$:/Users/ASUS/CLionProjects/untitled/chapter06_toan$ tu/tinhbieuthuc.c || cmake_object_order_depends_target_untitled
+  DEP_FILE = CMakeFiles\untitled.dir\chapter06_toan_tu\tinhbieuthuc.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\untitled.dir
+  OBJECT_FILE_DIR = CMakeFiles\untitled.dir\chapter06_toan_tu
+
+build CMakeFiles/untitled.dir/chapter04/circle.c.obj: C_COMPILER__untitled_unscanned_Debug C$:/Users/ASUS/CLionProjects/untitled/chapter04/circle.c || cmake_object_order_depends_target_untitled
+  DEP_FILE = CMakeFiles\untitled.dir\chapter04\circle.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\untitled.dir
+  OBJECT_FILE_DIR = CMakeFiles\untitled.dir\chapter04
+
+build CMakeFiles/untitled.dir/chapter06_toan_tu/tinh_luong_thuc_lanh.c.obj: C_COMPILER__untitled_unscanned_Debug C$:/Users/ASUS/CLionProjects/untitled/chapter06_toan$ tu/tinh_luong_thuc_lanh.c || cmake_object_order_depends_target_untitled
+  DEP_FILE = CMakeFiles\untitled.dir\chapter06_toan_tu\tinh_luong_thuc_lanh.c.obj.d
+  FLAGS = -g -std=gnu11 -fdiagnostics-color=always
+  OBJECT_DIR = CMakeFiles\untitled.dir
+  OBJECT_FILE_DIR = CMakeFiles\untitled.dir\chapter06_toan_tu
 
 
 # =============================================================================
@@ -93,7 +129,7 @@ build CMakeFiles/untitled.dir/circle/area_and_perimeter.c.obj: C_COMPILER__untit
 #############################################
 # Link the executable untitled.exe
 
-build untitled.exe: C_EXECUTABLE_LINKER__untitled_Debug CMakeFiles/untitled.dir/main.c.obj CMakeFiles/untitled.dir/chapter01/vidu01.c.obj CMakeFiles/untitled.dir/chapter02/convert_degree.c.obj CMakeFiles/untitled.dir/chapter03/sum.c.obj CMakeFiles/untitled.dir/chapter04/binh_phuong.c.obj CMakeFiles/untitled.dir/circle/area_and_perimeter.c.obj
+build untitled.exe: C_EXECUTABLE_LINKER__untitled_Debug CMakeFiles/untitled.dir/main.c.obj CMakeFiles/untitled.dir/chapter01/vidu01.c.obj CMakeFiles/untitled.dir/chapter02/convert_degree.c.obj CMakeFiles/untitled.dir/chapter03/sum.c.obj CMakeFiles/untitled.dir/chapter04/binh_phuong.c.obj CMakeFiles/untitled.dir/chapter06_toan_tu/area_and_perimeter.c.obj CMakeFiles/untitled.dir/chapter05_circle/salary.c.obj CMakeFiles/untitled.dir/chapter06_toan_tu/cong3so.c.obj CMakeFiles/untitled.dir/chapter06_toan_tu/thetichhinhtru.c.obj CMakeFiles/untitled.dir/chapter06_toan_tu/tinhbieuthuc.c.obj CMakeFiles/untitled.dir/chapter04/circle.c.obj CMakeFiles/untitled.dir/chapter06_toan_tu/tinh_luong_thuc_lanh.c.obj
   FLAGS = -g
   LINK_LIBRARIES = -lkernel32 -luser32 -lgdi32 -lwinspool -lshell32 -lole32 -loleaut32 -luuid -lcomdlg32 -ladvapi32
   OBJECT_DIR = CMakeFiles\untitled.dir
