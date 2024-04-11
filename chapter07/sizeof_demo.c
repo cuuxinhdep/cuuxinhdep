@@ -2,8 +2,8 @@
 // Created by ASUS on 4/10/2024.
 //
 #include "stdio.h"
-//int sizeof_demo(){
-int main(){
+int sizeof_demo(){
+//int main(){
     float r, c, s;
     printf("Ban kinh cua hinh tron la r= ");
     scanf("%f", &r);

@@ -2,8 +2,8 @@
 // Created by ASUS on 4/9/2024.
 //
 #include "stdio.h"
-//int tinh_luong(){
-    int main(){
+int tinh_luong(){
+//    int main(){
         int a, b, c, d;
         printf("luong co ban:$ ");
         scanf("%d", &a);
