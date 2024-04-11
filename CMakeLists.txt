@@ -21,4 +21,7 @@ add_executable(cuuxinhdep
         session6/tinhgiatri.c
         session6/timgiatri_gan.c
         session6/quydoidonvi.c
-        session6/iresult.c)
+        session6/iresult.c
+        session5/nhap_xuat.c
+        session5/ASCII.c
+        "session5/bang luong.c")
