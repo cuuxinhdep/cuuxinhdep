@@ -7,7 +7,7 @@ int doi_hoa_thanh_thuong(){
     char c;
     scanf("%c", &c);
     if(c >='A' && c <= 'Z')
-        printf("%c", c + 32);
+        printf("%c and value is %d", c + 32, c + 32);
     else
-        printf("%c", c);
+        printf("%c and value is %d",c, c);
 }
