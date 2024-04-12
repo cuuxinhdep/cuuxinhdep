@@ -2,8 +2,8 @@
 // Created by PC on 4/12/2024.
 //
 #include "stdio.h"
-//int vidu7(){
-void main(){
+int vidu7(){
+//void main(){
     int x, y;
     x = y = 0;
     printf("enter x: ");
