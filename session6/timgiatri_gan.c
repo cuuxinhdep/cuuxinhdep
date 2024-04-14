@@ -2,8 +2,8 @@
 // Created by ASUS on 4/11/2024.
 //
 #include "stdio.h"
-//int timgiatri(){
-    void main(){
+int timgiatri(){
+//    void main(){
     int s, m = 3, n = 5, r, t;
     float x = 3.0, y;
     printf("t = %d\n", n / m);

@@ -2,8 +2,8 @@
 // Created by ASUS on 4/11/2024.
 //
 #include "stdio.h"
-//int bangluong(){
-int main(){
+int bangluong(){
+//int main(){
     int basic, daper;
     float bonper, loanet;
     char name[10];

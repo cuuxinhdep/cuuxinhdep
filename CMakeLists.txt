@@ -25,4 +25,13 @@ add_executable(cuuxinhdep
         session5/nhap_xuat.c
         session5/ASCII.c
         "session5/bang luong.c"
-        session5/ho_ten.c)
+        session5/ho_ten.c
+        session7/bai1.c
+        session7/bai2.c
+        session7/bai3.c
+        session7/bai4.c
+        chapter07/atm_basic.c
+        session7/bai5.c
+        session8/bai1.c
+        session8/bai2.c
+        session8/bai3.c)

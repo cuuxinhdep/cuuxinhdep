@@ -2,8 +2,8 @@
 // Created by ASUS on 4/11/2024.
 //
 #include "stdio.h"
-//int ho_ten(){
-int main(){
+int ho_ten(){
+//int main(){
     char ho[50], ten[50];
     printf("Nhap ho cua ban: ");
     scanf("%[^\n]S", &ho);
