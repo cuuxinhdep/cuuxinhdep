@@ -2,8 +2,8 @@
 // Created by PC on 4/15/2024.
 //
 #include "stdio.h"
-//int baitap_7(){
-int main(){
+int baitap_7(){
+//int main(){
     int num1, num2;
     scanf("%d%d", &num1, &num2);
     if(num1 % num2 == 0)
