@@ -14,14 +14,14 @@ int snt(int n){
 int main() {
     int a[5];
     int count = 0;
-    int max = a[0];
-    int min = a[0];
     while (count < 5){
         printf("Nhap so thu %d", count + 1);
         scanf("%d", &a[count]);
         if(!snt(a[count])) continue;
         ++count;
         }
+    int max = a[0];
+    int min = a[0];
     for (int i = 0; i < 5; ++i) {
         if(a[i] >= max)
             max = a[i];
