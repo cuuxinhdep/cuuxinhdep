@@ -10,7 +10,7 @@ int snt(int n){
     }
     return n > 1;
 }
-
+//?
 int main() {
     int a[5];
     int count = 0;
