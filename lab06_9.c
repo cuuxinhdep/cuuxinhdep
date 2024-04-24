@@ -5,7 +5,7 @@
 #include "time.h"
 #include "stdlib.h"
 #include "math.h"
-//int lab06_9(){
+int lab06_9(){
 int snt(int n){
     for (int i = 2; i < sqrt(n); ++i) {
         if(!( n % i)) return 0;
@@ -13,7 +13,7 @@ int snt(int n){
     return n > 1;
 }
 
-int main(){
+//int main(){
     int a[20];
     srand(time(NULL));
     int count = 0;
