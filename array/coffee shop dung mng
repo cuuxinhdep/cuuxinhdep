@@ -1,0 +1,66 @@
+#include <stdio.h>
+void displayNenu(){
+    printf("********** Coffee Shop Menu *********\n");
+    printf("a. Espresso - $2.50\n");
+    printf("b.  Cppuchino - $3.00\n");
+    printf("c. Latte - $3.50\n");
+    printf("d. exit\n");
+}
+
+void placeOrder(char option){
+    switch (option){
+        case 'a':
+        printf("Placing order: Espresso\n");
+        break;
+        case 'b': 
+        printf("Placing order: Cppuchino\n");
+        break;
+        case 'c':
+        printf("Placing order: Latte\n");
+        break;
+        case 'd':
+        printf("Thanks for your order\n");
+        break;
+        default:
+        printf("Invalid option. Please try again.\n");
+    }
+}
+float calculateTotalCost(char option, int Quantity){
+    float price;
+    switch(option){
+        case 'a':
+        price = 2.50;
+        break;
+        case 'b':
+        price = 3.00;
+        break;
+        case 'c':
+        price = 3.50;
+        break;
+        default:
+        price = 0.00;
+    }
+    return price * Quantity;
+    
+}
+int
+main ()
+{
+    char option;
+    int Quantity;
+    do{
+        displayNenu();
+        printf("Enter your option:");
+        scanf("%c", &option);
+        if(option != 'd'){
+            printf("Enter the Quantity: ");
+            scanf("%d", &Quantity);
+            placeOrder(option);
+            float totalCost = calculateTotalCost(option,Quantity);
+            printf("totalCost = %.2f\n\n",totalCost);
+        }
+    }while(option != 'd');
+
+  
+  return 0;
+}
