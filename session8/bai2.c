@@ -2,8 +2,8 @@
 // Created by ASUS on 4/14/2024.
 //
 #include "stdio.h"
-//int bai02(){
-void main(){
+int bai02(){
+//void main(){
     char c;
     scanf("%c", &c);
     switch (c) {

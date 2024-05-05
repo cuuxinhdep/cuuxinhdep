@@ -2,8 +2,8 @@
 // Created by ASUS on 4/16/2024.
 //
 #include "stdio.h"
-//int tu_luyen(){
-int main(){
+int tu_luyen(){
+//int main(){
     int select, b, c;
     printf("Chao mung ban de voi le hoi tinh yeu\n");
     printf("Ban co nguoi yeu chua?\n");

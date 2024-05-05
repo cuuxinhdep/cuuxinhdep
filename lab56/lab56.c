@@ -2,8 +2,8 @@
 // Created by ASUS on 4/19/2024.
 //
 #include "stdio.h"
-//int lab56(){
-int main(){
+int lab56(){
+//int main(){
     int n, i;
     char ans;
     do {

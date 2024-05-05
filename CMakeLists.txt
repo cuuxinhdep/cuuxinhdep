@@ -34,4 +34,19 @@ add_executable(cuuxinhdep
         session7/bai5.c
         session8/bai1.c
         session8/bai2.c
-        session8/bai3.c)
+        session8/bai3.c
+        session8/tu_luyen.c
+        loops/inso.c
+        lab56/lab56.c
+        array/bai5skype.c
+        Buoi5/atm_2.c
+        array/bai6_skype.c
+        array/Heron.c
+        array/array/ktraboiso.c
+        array/reverse.c
+        array/reverse.c
+        array/indexMin.c
+        array/love.c
+        array/bai1_luyentap.c
+        array/bai2_luyentap.c
+        array/findmaxelement.c)
